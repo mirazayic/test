@@ -286,13 +286,13 @@ button:focus {
 .shipped .shipped__title {
   padding: 36px 0;
   font-size: 36px;
-  letter-spacing: 1px;
   background-color: #e7d5b0;
 }
 
 @media (min-width: 550px) {
   .shipped .shipped__title {
     padding-bottom: 39px;
+    letter-spacing: 1px;
   }
 }
 
@@ -603,10 +603,15 @@ button:focus {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 250px;
   text-transform: uppercase;
   text-align: left;
   font-size: 7px;
+}
+
+@media (min-width: 550px) {
+  .shipped .shipped__bill .bill__items {
+    width: 250px;
+  }
 }
 
 .shipped .shipped__bill .bill__items div {

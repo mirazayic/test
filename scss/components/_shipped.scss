@@ -12,11 +12,11 @@
     padding: 36px 0;
     // font-size: $font-size_xxl;
     font-size: 36px;
-    letter-spacing: 1px;
     background-color: $color_primary-light;
 
     @include screen-md {
       padding-bottom: 39px;
+      letter-spacing: 1px;
     }
   }
   .shipped__item,
@@ -263,10 +263,13 @@
     .bill__items {
       display: flex;
       justify-content: space-between;
-      width: 250px;
       text-transform: uppercase;
       text-align: left;
       font-size: $font-size_xxs;
+
+      @include screen-md {
+        width: 250px;
+      }
 
       div {
         padding: 24px 0;
