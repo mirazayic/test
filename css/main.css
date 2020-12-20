@@ -148,6 +148,12 @@ button:focus {
   padding-bottom: 30px;
 }
 
+@media (min-width: 550px) {
+  .header-logo.header-logo--shipped {
+    padding-bottom: 40px;
+  }
+}
+
 /*-----------------------------------------------------------------------------------
 
 	* welcome.scss *
@@ -320,6 +326,7 @@ button:focus {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin: 28px 0 9px;
     padding: 13px 28px;
   }
   .shipped .shipped__item p:first-of-type {
@@ -329,6 +336,13 @@ button:focus {
 
 .shipped .shipped__tracking {
   padding: 47px 28px 56px;
+}
+
+@media (min-width: 550px) {
+  .shipped .shipped__tracking {
+    padding-top: 44px;
+    padding-bottom: 35px;
+  }
 }
 
 .shipped .shipped__tracking .tracking__slider {
@@ -499,6 +513,14 @@ button:focus {
 }
 
 @media (min-width: 550px) {
+  .shipped .shipped__bill {
+    margin-top: 8px;
+    padding-top: 15px;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 550px) {
   .shipped .shipped__bill > div {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -535,6 +557,7 @@ button:focus {
 @media (min-width: 550px) {
   .shipped .shipped__bill .bill__count {
     margin-top: 16px;
+    padding-top: 18px;
   }
 }
 
@@ -626,6 +649,12 @@ button:focus {
   font-weight: 600;
   color: #a47731;
   background-color: #f8f8f8;
+}
+
+@media (min-width: 550px) {
+  .shipped .shipped__tagline {
+    padding-top: 34px;
+  }
 }
 
 /*-----------------------------------------------------------------------------------

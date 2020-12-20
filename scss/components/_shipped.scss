@@ -43,6 +43,7 @@
     @include screen-md {
       display: flex;
       justify-content: space-between;
+      margin: 28px 0 9px;
       padding: 13px 28px;
 
       p {
@@ -54,6 +55,12 @@
   }
   .shipped__tracking {
     padding: 47px 28px 56px;
+
+    @include screen-md {
+      padding-top: 44px;
+      padding-bottom: 35px;
+    }
+
     .tracking__slider {
       margin: 0 auto;
       position: relative;
@@ -62,7 +69,6 @@
         padding-left: 70px;
         padding-right: 70px;
       }
-
       .slider__value {
         display: flex;
         justify-content: space-between;
@@ -193,6 +199,12 @@
     margin: 22px 0 0;
     padding: 32px 32px 20px;
 
+    @include screen-md {
+      margin-top: 8px;
+      padding-top: 15px;
+      padding-bottom: 0;
+    }
+
     > div {
       @include screen-md {
         display: flex;
@@ -221,6 +233,7 @@
     .bill__count {
       @include screen-md {
         margin-top: 16px;
+        padding-top: 18px;
       }
     }
     .bill__items {
@@ -296,5 +309,9 @@
     font-weight: 600;
     color: $color_primary;
     background-color: $bg-color_container;
+
+    @include screen-md {
+      padding-top: 34px;
+    }
   }
 }
