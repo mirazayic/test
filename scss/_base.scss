@@ -54,10 +54,21 @@ a {
   }
   &:hover,
   &:active {
-    background-color: rgba($font-color_base, 0.2);
+    background-color: rgba($font-color_base, 0.05);
   }
   &:focus {
     outline: currentColor;
+  }
+}
+
+button {
+  cursor: pointer;
+  &:hover,
+  &:active {
+    background-color: rgba($font-color_base, 0.05);
+  }
+  &:focus {
+    outline: $font-color_base;
   }
 }
 
