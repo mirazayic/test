@@ -260,13 +260,6 @@
         margin: 0;
       }
     }
-    .bill__count {
-      @include screen-md {
-        margin-top: 16px;
-        padding-top: 18px;
-        padding-bottom: 10px;
-      }
-    }
     .bill__items {
       display: flex;
       justify-content: space-between;
@@ -322,6 +315,12 @@
     }
     .bill__count {
       padding: 12px 0;
+
+      @include screen-md {
+        margin-top: 16px;
+        padding-top: 18px;
+        padding-bottom: 10px;
+      }
       div {
         display: flex;
         justify-content: space-between;

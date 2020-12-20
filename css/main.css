@@ -596,14 +596,6 @@ button:focus {
   }
 }
 
-@media (min-width: 550px) {
-  .shipped .shipped__bill .bill__count {
-    margin-top: 16px;
-    padding-top: 18px;
-    padding-bottom: 10px;
-  }
-}
-
 .shipped .shipped__bill .bill__items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -671,6 +663,14 @@ button:focus {
 
 .shipped .shipped__bill .bill__count {
   padding: 12px 0;
+}
+
+@media (min-width: 550px) {
+  .shipped .shipped__bill .bill__count {
+    margin-top: 16px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+  }
 }
 
 .shipped .shipped__bill .bill__count div {
