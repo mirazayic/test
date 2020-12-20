@@ -188,7 +188,7 @@ h1 {
 
 .welcome button {
   width: 260px;
-  padding: 11px 0 12px;
+  padding: 13px 0 12px;
   color: #ffffff;
   font-size: 15px;
   font-weight: 600;
@@ -620,7 +620,7 @@ footer .footer__socials {
 }
 
 footer .footer__socials a {
-  padding: 20px 5px;
+  padding: 15px 5px;
   color: #aeaeae;
   font-size: 15px;
 }
