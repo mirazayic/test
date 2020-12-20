@@ -10,29 +10,31 @@
   .welcome__user {
     padding: 59px 84px;
     color: $font-color_light;
-    font-size: $font-size_xxxl;
+    // font-size: $font-size_xxxl;
+    font-size: 38px;
     background-color: $color_accent;
 
     @include screen-md {
-      padding: 100px 0;
+      padding: 90px 0;
     }
   }
 
   h2 {
-    margin: 36px 80px 18px;
+    margin: 27px 80px 8px;
     font-size: $font-size_xl;
     font-weight: 700;
   }
 
   h3 {
     font-weight: 600;
+    font-size: $font-size-base;
     color: $color_primary;
   }
 
   .welcome__account-menu {
     display: flex;
     justify-content: center;
-    margin: 40px 0;
+    margin: 37px 0 34px;
 
     > a {
       width: 100px;
@@ -57,7 +59,7 @@
   }
   button {
     width: 260px;
-    padding: 11px 0;
+    padding: 12px 0;
     color: $font-color_light;
     font-size: $font-size_lg;
     font-weight: 600;

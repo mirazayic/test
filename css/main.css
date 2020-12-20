@@ -95,7 +95,7 @@ h1 {
 
 @media (min-width: 550px) {
   .header-logo {
-    padding: 55px 0 15px;
+    padding: 55px 0 20px;
   }
 }
 
@@ -117,24 +117,25 @@ h1 {
 .welcome .welcome__user {
   padding: 59px 84px;
   color: #ffffff;
-  font-size: 34px;
+  font-size: 38px;
   background-color: #ff4205;
 }
 
 @media (min-width: 550px) {
   .welcome .welcome__user {
-    padding: 100px 0;
+    padding: 90px 0;
   }
 }
 
 .welcome h2 {
-  margin: 36px 80px 18px;
+  margin: 27px 80px 8px;
   font-size: 18px;
   font-weight: 700;
 }
 
 .welcome h3 {
   font-weight: 600;
+  font-size: 13px;
   color: #a47731;
 }
 
@@ -145,7 +146,7 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 40px 0;
+  margin: 37px 0 34px;
 }
 
 .welcome .welcome__account-menu > a {
@@ -181,7 +182,7 @@ h1 {
 
 .welcome button {
   width: 260px;
-  padding: 11px 0;
+  padding: 12px 0;
   color: #ffffff;
   font-size: 15px;
   font-weight: 600;
@@ -534,7 +535,7 @@ h1 {
 
 -----------------------------------------------------------------------------------*/
 footer {
-  margin-top: 43.5px;
+  margin-top: 56px;
   margin-bottom: 100px;
   position: relative;
   text-align: center;
@@ -552,13 +553,13 @@ footer::before {
 }
 
 footer .footer__logo {
-  margin: 23px 0 16px;
+  margin: 23px 0 14px;
   display: inline-block;
 }
 
 footer .footer__address {
   width: 155px;
-  margin: 0 auto 23px;
+  margin: 0 auto 14px;
   font-size: 9px;
   font-weight: 600;
   color: #aeaeae;
@@ -586,8 +587,8 @@ footer .footer__menu {
 }
 
 footer .footer__menu a {
-  padding: 0 5px;
-  font-size: 11px;
+  padding: 0 6px;
+  font-size: 10px;
   font-weight: 600;
   color: #a47731;
   text-transform: uppercase;

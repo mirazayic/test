@@ -5,7 +5,7 @@
 -----------------------------------------------------------------------------------*/
 
 footer {
-  margin-top: 43.5px;
+  margin-top: 56px;
   margin-bottom: 100px;
   position: relative;
   text-align: center;
@@ -20,12 +20,12 @@ footer {
     border: 1px solid rgba($font-color_base, 0.22);
   }
   .footer__logo {
-    margin: 23px 0 16px;
+    margin: 23px 0 14px;
     display: inline-block;
   }
   .footer__address {
     width: 155px;
-    margin: 0 auto 23px;
+    margin: 0 auto 14px;
     font-size: $font-size_xs;
     font-weight: 600;
     color: $font-color_mute;
@@ -44,8 +44,9 @@ footer {
     display: flex;
     justify-content: center;
     a {
-      padding: 0 5px;
-      font-size: $font-size_sm;
+      padding: 0 6px;
+      // font-size: $font-size_sm;
+      font-size: 10px;
       font-weight: 600;
       color: $color_primary;
       text-transform: uppercase;
