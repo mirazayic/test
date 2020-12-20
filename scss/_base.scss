@@ -1,0 +1,54 @@
+/*-----------------------------------------------------------------------------------
+
+	* base.scss * 
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	css reset
+-----------------------------------------------------------------*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ----------------------------------------------------------------
+	basic styles
+-----------------------------------------------------------------*/
+
+body {
+  font-family: $font-family_base;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: $font-size_base;
+  color: $font-color_base;
+  background-color: $bg-color_body;
+}
+
+h1 {
+  font-family: $font-family_accent;
+  font-weight: 500;
+}
+
+.container {
+  width: 100%;
+  max-width: 610px;
+  margin: 0 auto;
+  background-color: $bg-color_container;
+}

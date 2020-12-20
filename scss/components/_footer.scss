@@ -1,0 +1,72 @@
+/*-----------------------------------------------------------------------------------
+
+	* footer.scss *
+
+-----------------------------------------------------------------------------------*/
+
+footer {
+  margin-top: 43.5px;
+  margin-bottom: 100px;
+  position: relative;
+  text-align: center;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 244px;
+    border: 1px solid rgba($font-color_base, 0.22);
+  }
+  .footer__logo {
+    margin: 23px 0 16px;
+    display: inline-block;
+  }
+  .footer__address {
+    width: 155px;
+    margin: 0 auto 23px;
+    font-size: $font-size_xs;
+    font-weight: 600;
+    color: $font-color_mute;
+    text-align: left;
+
+    @include screen-md {
+      width: 300px;
+      text-align: center;
+    }
+
+    p:nth-of-type(2) {
+      text-align: center;
+    }
+  }
+  .footer__menu {
+    display: flex;
+    justify-content: center;
+    a {
+      padding: 0 5px;
+      font-size: $font-size_sm;
+      font-weight: 600;
+      color: $color_primary;
+      text-transform: uppercase;
+    }
+    a:nth-of-type(2) {
+      border-left: 1px solid $font-color_base;
+      border-right: 1px solid $font-color_base;
+    }
+  }
+  .footer__copyright {
+    margin: 5px 0;
+    font-size: $font-size_xs;
+  }
+  .footer__socials {
+    display: flex;
+    justify-content: center;
+
+    a {
+      padding: 20px 5px;
+      color: $font-color_mute;
+      font-size: $font-size_lg;
+    }
+  }
+}

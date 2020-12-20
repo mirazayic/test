@@ -1,0 +1,52 @@
+/*-----------------------------------------------------------------------------------
+
+	* vars-mix.scss * 
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Colors & Background
+-----------------------------------------------------------------*/
+
+$color_primary: #a47731;
+$color_primary-light: lighten(desaturate(adjust-hue($color_primary, 4), 0.59), 38.04); // this is: #e7d5b0
+$color_accent: #ff4205;
+
+$bg-color_container: #f8f8f8;
+$bg-color_body: #ffffff;
+
+/* ----------------------------------------------------------------
+	Typography
+-----------------------------------------------------------------*/
+
+$font-family_base: "Segoe UI", sans-serif;
+$font-family_accent: "Copyright Klim Type Foundry", serif;
+
+$font-size_xxxl: 34px;
+$font-size_xxl: 30px;
+$font-size_xl: 18px;
+$font-size_lg: 15px;
+$font-size_base: 13px;
+$font-size_sm: 11px;
+$font-size_xs: 9px;
+$font-size_xxs: 7px;
+
+$font-color_base: #333333;
+$font-color_light: #ffffff;
+$font-color_mute: #aeaeae;
+
+/* ----------------------------------------------------------------
+	Breakpoints
+-----------------------------------------------------------------*/
+
+$screen-md-min: 550px;
+
+/* ----------------------------------------------------------------
+	Breakpoints - mix
+-----------------------------------------------------------------*/
+
+@mixin screen-md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
