@@ -163,7 +163,7 @@ button:focus {
 
 @media (min-width: 550px) {
   .welcome .welcome__user {
-    padding: 90px 0;
+    padding: 90px 0 95px;
   }
 }
 
@@ -242,6 +242,7 @@ button:focus {
 @media (min-width: 550px) {
   .welcome p {
     margin-top: 0;
+    margin-bottom: 43px;
     width: 350px;
   }
 }
@@ -641,7 +642,7 @@ footer .footer__address {
 @media (min-width: 550px) {
   footer .footer__address {
     width: 300px;
-    margin-bottom: 13px;
+    margin-bottom: 14px;
     text-align: center;
   }
 }
