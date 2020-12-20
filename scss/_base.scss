@@ -46,6 +46,21 @@ h1 {
   font-weight: 500;
 }
 
+a {
+  transition: all 0.4s;
+
+  &:visited {
+    color: currentColor;
+  }
+  &:hover,
+  &:active {
+    background-color: rgba($font-color_base, 0.2);
+  }
+  &:focus {
+    outline: currentColor;
+  }
+}
+
 .container {
   width: 100%;
   max-width: 610px;
