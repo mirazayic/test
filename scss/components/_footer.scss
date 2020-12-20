@@ -10,6 +10,10 @@ footer {
   position: relative;
   text-align: center;
 
+  &.footer--shipped {
+    margin-top: 37px;
+  }
+
   @include screen-md {
     margin-top: 55px;
   }
