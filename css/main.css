@@ -402,7 +402,7 @@ button:focus {
   left: -2px;
 }
 
-.shipped .shipped__tracking .tracking__slider .slider__bar .stop1 {
+.shipped .shipped__tracking .tracking__slider .slider__bar .stop2 {
   left: 108px;
 }
 
@@ -447,7 +447,7 @@ button:focus {
   width: 113px;
   position: relative;
   top: -3px;
-  left: -7px;
+  left: 7px;
 }
 
 @media (min-width: 550px) {

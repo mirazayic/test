@@ -110,7 +110,7 @@
         .stop1 {
           left: -2px;
         }
-        .stop1 {
+        .stop2 {
           left: 108px;
         }
         .stop3 {
@@ -145,7 +145,7 @@
           width: 113px;
           position: relative;
           top: -3px;
-          left: -7px;
+          left: 7px;
         }
         @include screen-md {
           position: absolute;
