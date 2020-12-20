@@ -8,10 +8,11 @@
   text-align: center;
 
   .welcome__user {
-    padding: 59px 84px;
+    padding: 62px 84px 63px;
     color: $font-color_light;
     // font-size: $font-size_xxxl;
     font-size: 38px;
+    line-height: 1;
     background-color: $color_accent;
 
     @include screen-md {
@@ -20,9 +21,13 @@
   }
 
   h2 {
-    margin: 27px 80px 8px;
+    margin: 37px 70px 18px;
     font-size: $font-size_xl;
     font-weight: 700;
+
+    @include screen-md {
+      margin: 27px 80px 8px;
+    }
   }
 
   h3 {
@@ -35,7 +40,11 @@
   .welcome__account-menu {
     display: flex;
     justify-content: center;
-    margin: 37px 0 34px;
+    margin: 41px 0 34px;
+
+    @include screen-md {
+      margin: 37px 0 34px;
+    }
 
     > a {
       width: 100px;
@@ -46,7 +55,9 @@
       margin-top: 2px; // to match the design more
 
       &:nth-of-type(2) {
-        margin-left: -7px; // to match the design more
+        @include screen-md {
+          margin-left: -7px; // to match the design more
+        }
       }
       &:nth-of-type(3) {
         margin-top: -1px; // to match the design more
@@ -61,9 +72,10 @@
   }
   p {
     width: 170px;
-    margin: 0 auto 43px;
+    margin: 43px auto 39px;
 
     @include screen-md {
+      margin-top: 0;
       width: 350px;
     }
   }

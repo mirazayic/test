@@ -5,10 +5,14 @@
 -----------------------------------------------------------------------------------*/
 
 footer {
-  margin-top: 55px;
+  margin-top: 44px;
   margin-bottom: 100px;
   position: relative;
   text-align: center;
+
+  @include screen-md {
+    margin-top: 55px;
+  }
 
   &::before {
     content: "";
@@ -25,7 +29,7 @@ footer {
   }
   .footer__address {
     width: 155px;
-    margin: 0 auto 13px;
+    margin: 0 auto 23px;
     font-size: $font-size_xs;
     font-weight: 600;
     color: $font-color_mute;
@@ -33,6 +37,7 @@ footer {
 
     @include screen-md {
       width: 300px;
+      margin-bottom: 13px;
       text-align: center;
     }
 
@@ -57,7 +62,7 @@ footer {
     }
   }
   .footer__copyright {
-    margin: 5px 0 7px;
+    margin: 5px 0;
     font-size: $font-size_xs;
   }
   .footer__socials {
