@@ -221,7 +221,7 @@ button:focus {
 
 .welcome p {
   width: 170px;
-  margin: 0 auto 43px;
+  margin: 0 auto 44px;
 }
 
 @media (min-width: 550px) {
