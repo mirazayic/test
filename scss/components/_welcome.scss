@@ -43,10 +43,13 @@
       flex-direction: column;
       justify-content: center;
       margin-left: -4px; // to match the design more
-      margin-top: -1px; // to match the design more
+      margin-top: 2px; // to match the design more
 
       &:nth-of-type(2) {
         margin-left: -7px; // to match the design more
+      }
+      &:nth-of-type(3) {
+        margin-top: -1px; // to match the design more
       }
 
       span {
@@ -66,7 +69,7 @@
   }
   button {
     width: 260px;
-    padding: 12px 0;
+    padding: 12px 0 13px;
     color: $font-color_light;
     font-size: $font-size_lg;
     font-weight: 600;
