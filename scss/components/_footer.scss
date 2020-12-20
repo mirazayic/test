@@ -12,6 +12,10 @@ footer {
 
   &.footer--shipped {
     margin-top: 37px;
+
+    @include screen-md {
+      margin-top: 38px;
+    }
   }
 
   @include screen-md {

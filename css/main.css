@@ -150,7 +150,7 @@ button:focus {
 
 @media (min-width: 550px) {
   .header-logo.header-logo--shipped {
-    padding-bottom: 40px;
+    padding-bottom: 39px;
   }
 }
 
@@ -286,7 +286,14 @@ button:focus {
 .shipped .shipped__title {
   padding: 36px 0;
   font-size: 36px;
+  letter-spacing: 1px;
   background-color: #e7d5b0;
+}
+
+@media (min-width: 550px) {
+  .shipped .shipped__title {
+    padding-bottom: 39px;
+  }
 }
 
 .shipped .shipped__item,
@@ -331,6 +338,17 @@ button:focus {
   }
   .shipped .shipped__item p:first-of-type {
     margin-bottom: 0;
+    margin-left: 8px;
+  }
+  .shipped .shipped__item p:first-of-type span {
+    margin-right: 9px;
+  }
+  .shipped .shipped__item p:nth-of-type(2) {
+    position: relative;
+    right: 8px;
+  }
+  .shipped .shipped__item p:nth-of-type(2) span {
+    margin-right: 10px;
   }
 }
 
@@ -340,8 +358,7 @@ button:focus {
 
 @media (min-width: 550px) {
   .shipped .shipped__tracking {
-    padding-top: 44px;
-    padding-bottom: 35px;
+    padding: 42px 70px 35px;
   }
 }
 
@@ -372,12 +389,25 @@ button:focus {
   margin-left: -8px;
 }
 
+@media (min-width: 550px) {
+  .shipped .shipped__tracking .tracking__slider .slider__value p:nth-of-type(1) {
+    maegin-left: -22px;
+  }
+}
+
 .shipped .shipped__tracking .tracking__slider .slider__value p:nth-of-type(2) {
   margin-left: -20px;
 }
 
 .shipped .shipped__tracking .tracking__slider .slider__value p:nth-of-type(3) {
-  margin-left: -4px;
+  position: relative;
+  right: 4px;
+}
+
+@media (min-width: 550px) {
+  .shipped .shipped__tracking .tracking__slider .slider__value p:nth-of-type(3) {
+    right: 10px;
+  }
 }
 
 @media (min-width: 550px) {
@@ -399,6 +429,12 @@ button:focus {
   position: relative;
   left: -9px;
   background-color: #aeaeae;
+}
+
+@media (min-width: 550px) {
+  .shipped .shipped__tracking .tracking__slider .slider__bar {
+    left: -15px;
+  }
 }
 
 .shipped .shipped__tracking .tracking__slider .slider__bar span {
@@ -465,11 +501,17 @@ button:focus {
 }
 
 @media (min-width: 550px) {
+  .shipped .shipped__tracking .tracking__slider .slider__position .end {
+    top: 0;
+  }
+}
+
+@media (min-width: 550px) {
   .shipped .shipped__tracking .tracking__slider .slider__position {
     position: absolute;
-    top: -15px;
+    top: -19px;
     left: 0;
-    padding: 0 15px;
+    padding: 0 10px;
   }
 }
 
@@ -514,7 +556,7 @@ button:focus {
 
 @media (min-width: 550px) {
   .shipped .shipped__bill {
-    margin-top: 8px;
+    margin-top: 9px;
     padding-top: 15px;
     padding-bottom: 0;
   }
@@ -558,6 +600,7 @@ button:focus {
   .shipped .shipped__bill .bill__count {
     margin-top: 16px;
     padding-top: 18px;
+    padding-bottom: 10px;
   }
 }
 
@@ -568,6 +611,7 @@ button:focus {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 250px;
   text-transform: uppercase;
   text-align: left;
   font-size: 7px;
@@ -598,6 +642,12 @@ button:focus {
   font-weight: 600;
   color: #ffffff;
   background-color: #ff4205;
+}
+
+@media (min-width: 550px) {
+  .shipped .shipped__bill .bill__items div .img .badge {
+    right: 7px;
+  }
 }
 
 .shipped .shipped__bill .bill__items h3,
@@ -671,6 +721,12 @@ footer {
 
 footer.footer--shipped {
   margin-top: 37px;
+}
+
+@media (min-width: 550px) {
+  footer.footer--shipped {
+    margin-top: 38px;
+  }
 }
 
 @media (min-width: 550px) {

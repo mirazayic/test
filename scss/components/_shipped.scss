@@ -12,7 +12,12 @@
     padding: 36px 0;
     // font-size: $font-size_xxl;
     font-size: 36px;
+    letter-spacing: 1px;
     background-color: $color_primary-light;
+
+    @include screen-md {
+      padding-bottom: 39px;
+    }
   }
   .shipped__item,
   .shipped__tracking,
@@ -49,6 +54,17 @@
       p {
         &:first-of-type {
           margin-bottom: 0;
+          margin-left: 8px;
+          span {
+            margin-right: 9px;
+          }
+        }
+        &:nth-of-type(2) {
+          position: relative;
+          right: 8px;
+          span {
+            margin-right: 10px;
+          }
         }
       }
     }
@@ -57,8 +73,7 @@
     padding: 47px 28px 56px;
 
     @include screen-md {
-      padding-top: 44px;
-      padding-bottom: 35px;
+      padding: 42px 70px 35px;
     }
 
     .tracking__slider {
@@ -77,12 +92,20 @@
 
         p:nth-of-type(1) {
           margin-left: -8px;
+          @include screen-md {
+            maegin-left: -22px;
+          }
         }
         p:nth-of-type(2) {
           margin-left: -20px;
         }
         p:nth-of-type(3) {
-          margin-left: -4px;
+          // margin-left: -4px;
+          position: relative;
+          right: 4px;
+          @include screen-md {
+            right: 10px;
+          }
         }
 
         @include screen-md {
@@ -103,6 +126,10 @@
         position: relative;
         left: -9px;
         background-color: $font-color_mute;
+
+        @include screen-md {
+          left: -15px;
+        }
 
         span {
           width: 12px;
@@ -152,12 +179,15 @@
           position: relative;
           top: -3px;
           left: 7px;
+          @include screen-md {
+            top: 0;
+          }
         }
         @include screen-md {
           position: absolute;
-          top: -15px;
+          top: -19px;
           left: 0;
-          padding: 0 15px;
+          padding: 0 10px;
         }
       }
     }
@@ -200,7 +230,7 @@
     padding: 32px 32px 20px;
 
     @include screen-md {
-      margin-top: 8px;
+      margin-top: 9px;
       padding-top: 15px;
       padding-bottom: 0;
     }
@@ -234,11 +264,13 @@
       @include screen-md {
         margin-top: 16px;
         padding-top: 18px;
+        padding-bottom: 10px;
       }
     }
     .bill__items {
       display: flex;
       justify-content: space-between;
+      width: 250px;
       text-transform: uppercase;
       text-align: left;
       font-size: $font-size_xxs;
@@ -265,6 +297,10 @@
             font-weight: 600;
             color: $font-color_light;
             background-color: $color_accent;
+
+            @include screen-md {
+              right: 7px;
+            }
           }
         }
       }
