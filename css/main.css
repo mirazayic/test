@@ -89,12 +89,12 @@ h1 {
   width: 100%;
   height: 100%;
   background-color: #ffffff;
-  padding: 55px 0;
+  padding: 12px 0;
 }
 
 @media (min-width: 550px) {
   .header-logo {
-    padding: 55px 0 20px;
+    padding: 12px 0 20px;
   }
 }
 
@@ -162,11 +162,12 @@ h1 {
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: -5px;
-  margin-top: -1px;
+  margin-top: -3px;
 }
 
 .welcome .welcome__account-menu > a:nth-of-type(2) {
   margin-left: -7px;
+  margin-top: -1px;
 }
 
 .welcome .welcome__account-menu > a span {
@@ -188,7 +189,7 @@ h1 {
 
 .welcome button {
   width: 260px;
-  padding: 13px 0 12px;
+  padding: 12px 0;
   color: #ffffff;
   font-size: 15px;
   font-weight: 600;
