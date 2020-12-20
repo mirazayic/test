@@ -334,7 +334,7 @@ button:focus {
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin: 28px 0 9px;
-    padding: 13px 28px;
+    padding: 13px 20px;
   }
   .shipped .shipped__item p:first-of-type {
     margin-bottom: 0;
@@ -391,7 +391,7 @@ button:focus {
 
 @media (min-width: 550px) {
   .shipped .shipped__tracking .tracking__slider .slider__value p:nth-of-type(1) {
-    maegin-left: -22px;
+    margin-left: -22px;
   }
 }
 
