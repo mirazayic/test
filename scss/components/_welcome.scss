@@ -63,6 +63,10 @@
         margin-top: -1px; // to match the design more
       }
 
+      img {
+        max-width: 100%;
+      }
+
       span {
         margin-top: 5px;
         font-size: $font-size_xs;
@@ -72,7 +76,7 @@
   }
   p {
     width: 170px;
-    margin: 43px auto 39px;
+    margin: 40px auto 39px;
 
     @include screen-md {
       margin-top: 0;
