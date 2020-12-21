@@ -129,7 +129,7 @@ button:focus {
   width: 100%;
   height: 100%;
   background-color: #ffffff;
-  padding: 12px 0 55px;
+  padding: 20px 0 55px;
 }
 
 @media (min-width: 550px) {
@@ -238,6 +238,10 @@ button:focus {
   margin-top: -1px;
 }
 
+.welcome .welcome__account-menu > a img {
+  max-width: 100%;
+}
+
 .welcome .welcome__account-menu > a span {
   margin-top: 5px;
   font-size: 9px;
@@ -246,7 +250,7 @@ button:focus {
 
 .welcome p {
   width: 170px;
-  margin: 43px auto 39px;
+  margin: 40px auto 39px;
 }
 
 @media (min-width: 550px) {
