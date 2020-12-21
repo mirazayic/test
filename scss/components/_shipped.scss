@@ -281,6 +281,7 @@
           background: $color_primary-light;
 
           .badge {
+            display: -ms-grid;
             display: grid;
             place-items: center;
             width: 20px;
