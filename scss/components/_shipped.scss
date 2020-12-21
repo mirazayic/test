@@ -177,7 +177,7 @@
         .end {
           width: 113px;
           position: relative;
-          top: -3px;
+          top: -6px;
           left: 7px;
           @include screen-md {
             top: 0;
@@ -283,13 +283,15 @@
           .badge {
             display: -ms-grid;
             display: grid;
-            place-items: center;
+            // place-items: center; //ishues with IE
+            align-items: center;
+            justify-content: center;
             width: 20px;
             height: 20px;
             border-radius: 50%;
             position: absolute;
             right: 0;
-            bottom: 25%;
+            bottom: 21px;
             font-size: $font-size_sm;
             font-weight: 600;
             color: $font-color_light;
@@ -309,7 +311,7 @@
         margin-top: 4px;
       }
       h2 {
-        margin: 1px 0 4px;
+        margin: -1px 0 4px;
         font-size: $font-size_sm;
         font-weight: 600;
       }
